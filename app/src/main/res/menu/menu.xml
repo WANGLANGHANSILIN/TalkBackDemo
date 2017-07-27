@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/toolbar_start_talkback"
+        android:title="开始对讲"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/toolbar_stop_talkback"
+        android:title="停止对讲"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/toolbar_start_broadcast"
+        android:title="开始广播"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/toolbar_stop_broadcast"
+        android:title="停止广播"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/toolbar_exit_broadcast"
+        android:title="退出广播"
+        app:showAsAction="ifRoom"/>
+
+</menu>
